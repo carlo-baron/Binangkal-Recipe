@@ -38,8 +38,16 @@ section:first-of-type{
     flex-direction: column;
 }
 
-#ingredients{
+#ingredients-body{
     background-color: #f2a6a1;
+    display: flex;
+}
+
+#ingredients-body img{
+    max-height: 40px;
+    max-width: 40%;
+    height: auto;
+    width: auto;
 }
 
 #step1{
