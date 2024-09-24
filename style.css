@@ -23,6 +23,7 @@ section:first-of-type{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url;
 }
 
 #home img{
