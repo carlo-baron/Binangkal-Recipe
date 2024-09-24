@@ -9,6 +9,12 @@ section{
     height: 100vh;
 }
 
+h1{
+    font-family: quicksand-bold;
+    font-weight: 700;
+    font-size: 7em;
+}
+
 section:first-of-type{
     background-color: #d3e9d8;
 }
@@ -28,9 +34,6 @@ section:first-of-type{
 
 #title{
     position: absolute;
-    font-family: quicksand-bold;
-    font-weight: 700;
-    font-size: 8rem;
     color: #333333;
 
     display: inherit;
@@ -43,11 +46,40 @@ section:first-of-type{
     display: flex;
 }
 
+#ingredients-text{
+    margin: 1em;
+    width: 60%;
+    font-size: 2em;
+}
+
 #ingredients-body img{
-    max-height: 40px;
-    max-width: 40%;
-    height: auto;
-    width: auto;
+    width: 40%;
+}
+
+#direction-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.steps{
+    height: 70%;
+    font-size: 2em;
+}
+
+.steps-title{
+    height: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #step1{
@@ -56,6 +88,12 @@ section:first-of-type{
 
 #step2{
     background-color: #f5e0b3;
+}
+
+#footnote{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 @font-face {
