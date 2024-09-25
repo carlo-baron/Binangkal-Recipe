@@ -20,7 +20,7 @@ section{
 h1{
     font-family: quicksand-bold;
     font-weight: 700;
-    font-size: 7em;
+    font-size: 10vw;
 }
 
 section:first-of-type{
@@ -52,7 +52,7 @@ section:first-of-type{
 #ingredients-text{
     margin: 1em;
     width: 60%;
-    font-size: 2em;
+    font-size: 3vw;
 }
 
 #ingredients-body img{
@@ -75,7 +75,7 @@ section:first-of-type{
 
 .steps{
     height: 70%;
-    font-size: 2em;
+    font-size: 3vw;
 }
 
 .steps-title{
